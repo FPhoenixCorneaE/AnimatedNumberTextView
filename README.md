@@ -2,6 +2,10 @@
 
 ## 数字增加或减少动画的 TextView
 
+[![](https://jitpack.io/v/FPhoenixCorneaE/AnimatedNumberTextView.svg)](https://jitpack.io/#FPhoenixCorneaE/AnimatedNumberTextView)
+
+![](https://github.com/FPhoenixCorneaE/AnimatedNumberTextView/blob/main/images/animated-number-text.gif)
+
 
 
 ### 特性
