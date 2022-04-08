@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimatedNumberTextView">
+        <!-- 起始值 默认 "0" -->
+        <attr name="animatedNumberStart" format="reference|string" />
+        <!-- 结束值 -->
+        <attr name="animatedNumberEnd" format="reference|string" />
+        <!-- 动画总时间 默认 2000 毫秒 -->
+        <attr name="animatedNumberDuration" format="reference|integer" />
+        <!-- 前缀 -->
+        <attr name="animatedNumberPrefix" format="reference|string" />
+        <!-- 后缀 -->
+        <attr name="animatedNumberPostfix" format="reference|string" />
+        <!-- 是否开启动画 -->
+        <attr name="animatedNumberAnimEnable" format="boolean" />
+        <!-- 是否格式化 -->
+        <attr name="animatedNumberFormatEnable" format="boolean" />
+    </declare-styleable>
+</resources>
