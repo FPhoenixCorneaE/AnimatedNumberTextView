@@ -6,15 +6,35 @@
 
 ![](https://github.com/FPhoenixCorneaE/AnimatedNumberTextView/blob/main/images/animated-number-text.gif)
 
+### How to include it in your project:
 
+**Step 1.** Add the JitPack repository to your build file.
+
+```groovy
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://jitpack.io"
+        }
+    }
+}
+```
+
+**Step 2.** Add the dependency.
+
+```groovy
+dependencies {
+    implementation("com.github.FPhoenixCorneaE:AnimatedNumberTextView:$latest")
+}
+```
 
 ### 特性
 
 1. ##### 可添加前缀、后缀
 2. ##### 支持整数、小数
 3. ##### 可添加千位分隔符
-
-
 
 ### xml中使用
 
@@ -27,8 +47,6 @@
     app:animatedNumberPrefix="¥" app:animatedNumberStart="0" app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
 ```
-
-
 
 ### 代码中使用
 
