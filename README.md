@@ -44,3 +44,5 @@ findViewById<AnimatedNumberTextView>(R.id.tvAnimatedNumber4).apply {
     start()
 }
 ```
+
+参考：https://github.com/Bakumon/NumberAnimTextView
